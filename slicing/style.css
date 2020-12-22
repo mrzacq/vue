@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  background-color: #333952;
+  justify-content: space-between;
+}
+
+.leftside {
+  padding: 0px;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+}
+
+.rightside {
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 20px;
+  width: 577px;
+  height: 577px;
+  justify-content: flex-end;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-atas {
+  display:flex;
+  justify-content: flex-start;
+}
+.logo-bawah {
+  display:flex;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
